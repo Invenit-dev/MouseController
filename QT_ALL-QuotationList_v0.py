@@ -12,6 +12,7 @@ try:
     while True:
         delta = 50
         timedelay = 3
+        print("porca eva")
         x, y = pyautogui.position()
         print(f"Posizione attuale del mouse: x={x}, y={y}")
         time.sleep(timedelay)
@@ -186,4 +187,5 @@ for index in range(1, len(input_df)):
 
 
 """
+
 
