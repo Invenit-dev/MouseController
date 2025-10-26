@@ -7,7 +7,7 @@ import sys
 import pyperclip
 
 #pyautogui.FAILSAFE = False
-print(f"Posizione attuale del mouse: pp malefica")
+print(f"Posizione attuale del mouse: test19.32")
 try:
     while True:
         delta = 50
@@ -27,7 +27,6 @@ try:
         """
 except KeyboardInterrupt:
     print("Interrotto dall'utente.")
-
 pyautogui.click()  # Click sinistro nella posizione attuale del mouse
 pyautogui.click(x=100, y=200)  # Click in una posizione specifica
 pyautogui.doubleClick()  # Doppio click
@@ -186,6 +185,7 @@ for index in range(1, len(input_df)):
 
 
 """
+
 
 
 
