@@ -7,7 +7,7 @@ import sys
 import pyperclip
 
 #pyautogui.FAILSAFE = False
-print(f"Posizione attuale del mouse: test19.32")
+print(f"Posizione attuale del mouse: test19.36")
 try:
     while True:
         delta = 50
@@ -185,6 +185,7 @@ for index in range(1, len(input_df)):
 
 
 """
+
 
 
 
