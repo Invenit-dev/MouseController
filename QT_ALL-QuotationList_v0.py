@@ -6,14 +6,12 @@ import os
 import sys
 import pyperclip
 
-#pyautogui.FAILSAFE = False
-print(f"Posizione attuale del mouse: test19.36")
 try:
     while True:
         delta = 50
         timedelay = 3
         x, y = pyautogui.position()
-        #print(f"Posizione attuale del mouse: x={x}, y={y}")
+        print(f"Posizione attuale del mouse: x={x}, y={y}")
         time.sleep(timedelay)
         """
         pyautogui.moveTo(x+delta, y)
@@ -185,6 +183,7 @@ for index in range(1, len(input_df)):
 
 
 """
+
 
 
 
