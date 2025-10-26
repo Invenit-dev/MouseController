@@ -11,7 +11,7 @@ import pyperclip
 try:
     while True:
         delta = 50
-        timedelay = 1
+        timedelay = 3
         x, y = pyautogui.position()
 
         print(f"Posizione attuale del mouse: x={x}, y={y}")
@@ -183,5 +183,6 @@ for index in range(1, len(input_df)):
         DueDate = input_df.iloc[act_row, 7]           # cell(row, column)
         
         FillQuotationList(ReceivedFromInternal,SaleName,SFid,QuotName,ProductType,RequestType,CustomerName,DueDate)
+
 
 """
